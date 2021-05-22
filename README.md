@@ -7,7 +7,7 @@
 ## Feature
   upgrade 'exit' 
   
-  make 'ls','pwd','cd'
+  make 'ls','pwd'
   
   show user, host, cwd in its own color (using gethostusername.c)
 
