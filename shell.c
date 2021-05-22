@@ -66,15 +66,7 @@ int main(void)
 	    exit(0);
         }
 
-	if(strcmp(s,"cd")==0){  // 'cd' command
-    
-
-	    if(chdir(arg)>=0){
-		chdir(getenv("HOME"));}
-	    else
-		printf("usage:cd [dir]\n");
-
-	} 
+	
         ///// make child process    
         pid = fork(); 
         if (pid < 0) {
