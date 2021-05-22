@@ -10,7 +10,7 @@
 #define MAX_LEN_LINE    100
 #define MAX_DIR    100    
 #define LEN_HOSTNAME	30
-#define PATH_MAX    100
+
 
 int main(void)
 {
